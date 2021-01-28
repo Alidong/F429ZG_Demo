@@ -1,0 +1,36 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/Drivers/STM32F4xx_HAL_Driver/Inc",
+                "${workspaceFolder}/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy",
+                "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32F4xx/Include",
+                "${workspaceFolder}/Drivers/CMSIS/Include",
+                "${workspaceFolder}/Drivers/DHT11",
+                "${workspaceFolder}/Drivers/EEPROM",
+                "${workspaceFolder}/Drivers/FLASH",
+                "${workspaceFolder}/Drivers/ILI9488",
+                "${workspaceFolder}/Drivers/TOUCH",
+                "${workspaceFolder}/GUI/lvgl",
+                "${workspaceFolder}/GUI/lv_examples-master",
+                "${workspaceFolder}/GUI/demo",
+                "${workspaceFolder}/GUI/",
+                "${workspaceFolder}/printf",
+                "${workspaceFolder}/Drivers/CMSIS/RTOS2/Template/",
+                "C:\\Program Files (x86)\\GNU Tools Arm Embedded\\9 2019-q4-major\\arm-none-eabi\\include"
+            ],
+            "defines": [
+                "USE_HAL_DRIVER",
+                "STM32F429xx",
+                "OS_SUPPORT"
+            ],
+            "compilerPath": "C:\\Program Files (x86)\\GNU Tools Arm Embedded\\9 2019-q4-major\\bin\\arm-none-eabi-gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x86"
+        }
+    ],
+    "version": 4
+}
